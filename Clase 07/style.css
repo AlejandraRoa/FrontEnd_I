@@ -1,0 +1,31 @@
+*{
+    padding: 0 px; /* Para quitar bordes y magener que trae por defecto*/
+    margin: 0 px;
+} 
+/* Estos estis tienen en cuenta a jerarquía  */
+.ImagenP{
+    display: block;
+    text-align: center;
+    background-color: #E6E6E6;
+}
+
+.TituloP{ 
+    color: #005677;
+    font-family: 'Times New Roman';
+    line-height: 25px;
+    text-align: center;
+    background-color: #C4C4C4;
+}
+
+.Titulos{ 
+    color: #005677;
+    font-family: 'Times New Roman';
+    text-align: left;
+    background-color: #C4C4C4;
+}
+
+footer{
+    background-color: #005677;
+    text-align: center;
+    font-weight: bold;
+}
