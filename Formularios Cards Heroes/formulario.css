@@ -1,0 +1,170 @@
+*{
+    margin: 0;  /*se crea afuera */
+    padding: 0;  /*se crea dentro */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+}
+
+header .store{
+    position: relative;
+} 
+
+header p{
+    background-color: #1CD1B0;
+    padding: 4px 0px 4px 7px;
+}
+
+header .store i{
+    color: black;
+    position: absolute;
+    top: 12px;
+    left:5px;
+    font-size: 55px;
+}
+
+header h1{
+    background-color:#00669F;
+    color:white;
+    padding: 20px 80px 20px;
+    box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+background-color:#001D2D;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    padding: 10px;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+p{
+    text-align: center; 
+    padding: 10px;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main .contenedor{
+    background-color: #00669F;
+    margin-top: 50px;
+    width: 954px;
+    height: 832px; 
+    box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding-top: 15px;
+}
+
+main .contenedor .division1{
+    display: flex;
+    justify-content: center;
+}
+
+.columna_uno{
+    margin-right: 60px;
+}
+
+label{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+label, input{
+    display: flex;
+}
+
+.division1 .columna_uno input{
+    border: none;
+    width: 342px;
+    height: 63px;
+    border-radius: 10px;
+}
+
+.division1 .columna_uno input::placeholder, textarea::placeholder{
+font-size: 16px;
+}
+
+.columna_uno textarea{
+    margin-top: 20px;
+    width: 343px;
+    height: 307px;
+    padding:10px 10px;
+    border-radius: 10px;
+}
+
+select{
+    border: none;
+    width: 342px;
+    height: 63px;
+    border-radius: 10px;
+}
+
+fieldset{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+fieldset input{
+    width: 24px;
+    height: 20px;
+
+}
+legend{
+    color: white;
+    font-weight: 500;
+}
+
+.anadir{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #1CD1B0;
+    border-radius: 15px;
+    width: 466px;
+    height: 87px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    border: none;
+}
+
+.btn:hover{
+background-color: rgb(190, 213, 233);
+cursor: grab;
+}
+
+
+
+
+
+
+
+

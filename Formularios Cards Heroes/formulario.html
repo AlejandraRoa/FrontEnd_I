@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <p>20% de descuento en todos los productos</p>
+        <div class="store">
+            <h1>Nombre Tienda</h1>
+            <i class="fa-solid fa-store"></i>
+        </div>
+    </header>
+
+    <nav>
+        <ul type="none">
+            <li>
+            <a href="#">Contacto</a>
+            </li>
+            <li>
+                <a href="#">Registrarme</a>
+            </li>
+            <li>
+                <a href="#">Ingresar</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contenedor">
+            
+            <h2>Añadí tu super!</h2>
+            <p>Agrega tu personaje favorito completando las opciones</p>
+
+        <article class="division1">
+            <div class="columna_uno">
+                <form accept="" method="">
+                    
+                    <label>Nombre:</label> 
+                    <input type="text" name="Name" placeholder="Nombre del superheroe">
+                
+                    <label>Fecha:</label>
+                    <input type="date" name="fechacreacion" value="1997-28-10">
+                
+                    <textarea id="bio" name="bio" placeholder="Descripcion"></textarea>
+                
+                </form>
+            </div>
+        
+            <div class="columna_dos">
+                <form accept="" method="">
+                    
+                <label>Especie:</label>
+                <select name="poderes">
+                    <option selected>Ninguno</option>
+                    <option>DC COMICS</option>
+                    <option>MARVEL</option>
+                </select>
+            
+            
+                <label>Agregar Foto</label>
+                <input class="foto" type="file" name="Archivo" accept =".jpg, .png, .pdf">
+
+                <fieldset>
+                    <legend>Poderes</legend>
+                    <label>
+                        <input type="checkbox" name="power">Volar
+                </label> 
+                <label>
+                    <input type="checkbox" name="power">SuperInteligencia
+            </label>
+            <label>
+                <input type="checkbox" name="power">Vista de rayo laser
+        </label>
+        <label>
+            <input type="checkbox" name="power">Billetera Gorda
+    </label>
+                </fieldset>
+
+                <fieldset class="radio_buttom">
+                    <legend>Tipo de Personaje</legend>
+                    <label>
+                <input type="radio" name="tipoPersonaje">Héroe / Heroína
+            </label>
+            <label>
+                <input type="radio" name="tipoPersonaje">Villano / Villana
+            </label>
+                </fieldset>
+            </form>
+        </div>
+    </article>
+    <section class="anadir">
+        <form accept="" method="">
+            <button class="btn" type="submit">Añadir</button>
+        </form>
+    </section>
+        </section>
+    </main>
+</body>
+</html>
