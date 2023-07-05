@@ -1,0 +1,353 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Encabezado {
+    display: flex;
+    background-color: #222222;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+    color: white;
+    font-size: 10px;
+}
+
+.Navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Horizontal */
+    align-items: center;
+    /* Vertical */
+    background-color: #F0A83E;
+    color: white;
+    height: 62px;
+    font-size: 13px;
+    padding: 0px 40px;
+}
+
+.Banner {
+    color: white;
+    background-image: url(https://img.freepik.com/free-photo/bowl-pet-daities-green-background_23-2147799968.jpg?w=900&t=st=1687222586~exp=1687223186~hmac=5a7eaf905187f9ba8070b0db9392bf0db35e3222cee7a06669609e8ba287c194);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 409px;
+    /*     width: 100%; */
+}
+
+h2.Bienvenida {
+    display: flex;
+    position: absolute;
+    left: 648px;
+    top: 237px;
+    width: 365px;
+    height: 54px;
+    background-color: #FFFFFF;
+    color: #3C2313;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+p.itemB {
+    display: flex;
+    position: absolute;
+    left: 740px;
+    top: 303px;
+    font-size: 16px;
+    color: #3C2313;
+}
+
+p.itemB2 {
+    display: flex;
+    position: absolute;
+    left: 767px;
+    top: 334px;
+    height: 49px;
+    width: 141px;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.main {
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+.Productos {
+    display: flex;
+    height: 951px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 264px;
+}
+
+main .Form h2 {
+    text-align: center;
+    padding: 20px 0px;
+    color: #3C2313;
+    font-size: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Formulario input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 340px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #3C2313;
+    font-size: 9px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.Botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #8A8787;
+    border: none;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    border: none;
+}
+
+.Principal {
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Principal h2 {
+    color: #3C2313;
+    font-size: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Principal p {
+    color: #666;
+    font-size: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ProductosPorVer {
+    display: flex;
+    flex-direction: row;
+}
+
+.cajaP {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FBFAF6;
+    margin: 10px;
+}
+
+.cajaP img{
+    width: 265px;
+    height: 268.86px;
+}
+
+.cajaP h4 {
+    color: #3C2313;
+    font-size: 15px;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.cajaP p {
+    color: #F0A83E;
+    font-size: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.suscripcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    width: 100%;
+    height: 60px;
+}
+
+.Subscript {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Subscript i {
+    margin: 10px;
+}
+
+
+.FormS {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.FormS button.btn {
+    background-color: #3C2313;
+}
+
+.FormS input {
+    margin: 5px;
+    border-radius: 15px;
+    width: 271px;
+    height: 40px;
+    color: #A0A0A0;
+    background-color: #FFFFFF;
+    font-size: 9px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.Redes {
+    display: flex;
+    flex-direction: row;
+    background-color: #3C2313;
+    color: white;
+    width: 100%;
+    height: 284px;
+
+}
+
+.itemsF {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    margin-left: 25px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 66px;
+    height: 66px;
+    background-color: #786960;
+    border-radius: 50px;
+
+}
+
+.Columna1 {
+    margin-top: 15px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Columna2 {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.W {
+    color: #FFFFFF;
+}
+
+.O {
+    color: #F0A83E;
+}
+
+.derechos {
+    display: flex;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
